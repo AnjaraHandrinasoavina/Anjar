@@ -1,0 +1,162 @@
+body {
+    background: linear-gradient(180deg, #b189f2 0%, #211a2b 100%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    font-family: sans-serif;
+    color: #24609f;
+  }
+  
+  .cerle {
+    width: 250px;
+    height: 240px;
+    border-radius: 20px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 0px;
+  }
+  .img_portfolio {
+    border-radius: 20px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 0px;
+    border: #aeebfa 5px;
+    border-style: solid;
+    height: 200px;
+    border-color: ( #007bff, #ffffff);
+  }
+  
+  
+  .titre { 
+    text-decoration: unset black dotted;
+    color: #24609f;
+  }
+
+  .titre h2{
+    color: #1e4e7f;
+  }
+  .titre .Nom{
+    color: #03376c;
+  }
+  .citation {
+    color: blue;
+    text-align: center;
+  }
+  .content {
+    overflow: hidden;
+    text-align: center; 
+    color: black;
+    
+  }
+  
+  .bold{
+    font-weight: bold;
+  }
+  
+  .My_philosophie { 
+    background: var(--card-bg);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 95%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .My_portfolio {
+    text-decoration: unset black dotted; 
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .My_portfolio .menu{
+    font-size: large;
+    margin-right: 40px;
+    display: flex;
+    gap: 50px;
+  }
+  .profil {
+    color: black; 
+    
+  }
+  .intro{
+    background: var(--card-bg);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 90%;
+  }
+
+  .compet{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-block: 25px;
+    width: 90%;
+  }
+
+  .langa{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+  }
+  
+  .twoThem{
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    padding-top: 5px;
+    border-radius: 20px;
+    width: 90%;
+  }
+
+  .contact {
+    display: flex;
+    gap: 50px;
+  }
+
+  .sousTitre {
+    color: #0000a9c7;
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .a {
+    cursor: pointer;
+  }
+  .contact {
+    margin-top: 5%;
+
+  }
+  .My_compte{
+    height: 44px;
+    width: 56px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    border-radius: 100%;
+  }
+  .github_my {
+    height: 44px;
+    width: 56px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    border-radius: 100%;
+  }
+  .images {
+    height: 44px;
+    width: 56px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    border-radius: 100%;
+  }
+  .gmail {
+    height: 44px;
+    width: 56px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    border-radius: 47%;
+  }
