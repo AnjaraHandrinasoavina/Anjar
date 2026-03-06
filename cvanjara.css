@@ -11,7 +11,7 @@ body {
     padding: 40px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     border-radius: 41px;
-    background: linear-gradient(180deg, #b189f2 0%, #211a2b 100%);
+    background:#0d1730;
 }
 
 header {
@@ -112,17 +112,13 @@ ul {
     height: 200px;
     
 }
-
-
-
-                
-
 .projet_grp {
-    background: linear-gradient(180deg, #b189f2 0%, #211a2b 100%);
-    border-radius: 12%;
+     border-radius: 12%;
     width: 60%;
     padding: 10px;
+    background:#2a2f3b;
 }
 .lien_grp {
     margin-left: 50px;
 }
+
