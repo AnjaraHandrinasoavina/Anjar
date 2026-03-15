@@ -26,8 +26,15 @@ color:#38bdf8;
 
 nav a{
 color:white;
-margin-left:20px;
+margin-left: 20px;
 text-decoration:none;
+padding: 10px 20px;
+border-radius: 10px;
+
+}
+nav a:hover {
+  color: rgb(9, 248, 248);
+  box-shadow: 0 0 15px rgb(9, 248, 248), 0 0 48px rgb(9, 248, 248);
 }
 
 .portfolio{
