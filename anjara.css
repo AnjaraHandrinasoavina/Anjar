@@ -282,6 +282,78 @@ background:#020617;
   color: white;
 }
 
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+
+    body{
+        padding:0;
+        margin:0;
+    }
+
+    .container{
+        width:90%;
+        margin:auto;
+    }
+
+    /* menu */
+    nav{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    nav ul{
+        flex-direction:column;
+        padding:0;
+    }
+
+    nav ul li{
+        margin:10px 0;
+    }
+
+    /* section home */
+    .home{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .home img{
+        width:200px;
+        margin-top:20px;
+    }
+
+    /* contact */
+    .contact-form{
+        width:100%;
+    }
+
+}
+
+/* ===== TABLET ===== */
+@media (max-width:1024px){
+
+    .container{
+        width:95%;
+    }
+
+    .portfolio-container{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+/* ===== GRAND ECRAN ===== */
+@media (min-width:1200px){
+
+    .container{
+        max-width:1200px;
+        margin:auto;
+    }
+
+}
+   /* portfolio grid */
+    .portfolio-container{
+        grid-template-columns:1fr;
+    }
 
 
 
