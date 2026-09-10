@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anjara Handrinasoavina | Développeur Web Junior & Étudiant DA2I</title>
+    <meta name="description" content="Portfolio d'Anjara Handrinasoavina, développeur web junior et étudiant en DA2I à l'EMIT Fianarantsoa. Découvrez mes projets, compétences et contactez-moi pour un stage ou une opportunité.">
+    <meta name="keywords" content="Anjara Handrinasoavina, Développeur Web Junior, DA2I, EMIT, Fianarantsoa, Madagascar, HTML, CSS, JavaScript, Python, Portfolio">
+    <meta name="author" content="Anjara Handrinasoavina">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Anjara Handrinasoavina | Développeur Web Junior">
+    <meta property="og:description" content="Développeur Web Junior passionné par la création d'expériences web modernes et performantes.">
+    <meta property="og:image" content="photo_my.jfif">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="anjara.css">
+</head>
+<body>
+
+    <div id="toast" class="toast" role="status" aria-live="polite">
+        <i class="fas fa-check-circle toast-icon"></i>
+        <span id="toast-message">Copié dans le presse-papiers !</span>
+    </div>
+
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#accueil" class="brand-logo" aria-label="Accueil">
+                <span class="logo-bracket">&lt;</span><span class="logo-name">My</span><span class="logo-dot">portfolio</span><span class="logo-bracket"> /&gt;</span>
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="#accueil" class="nav-link active"><i class="fas fa-home"></i> Accueil</a>
+                <a href="#competences" class="nav-link"><i class="fas fa-code"></i> Compétences</a>
+                <a href="#projets" class="nav-link"><i class="fas fa-laptop-code"></i> Projets</a>
+                
+                <div class="mobile-nav-cta">
+                    <a href="cvanjara.html" class="btn btn-outline btn-sm"><i class="fas fa-file-alt"></i> Mon CV</a>
+                </div>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" title="Changer de thème (Clair / Sombre)" aria-label="Changer de thème">
+                    <i class="fas fa-sun sun-icon"></i>
+                    <i class="fas fa-moon moon-icon"></i>
+                </button>
+
+                <a href="cvanjara.html" class="btn btn-outline btn-sm desktop-only">
+                    <i class="fas fa-file-alt"></i> Mon CV
+                </a>
+
+                <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu" aria-expanded="false">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="nav-overlay" id="navOverlay"></div>
+
+    <main>
+        <section id="accueil" class="acceuil-section">
+            <div class="acceuil-glow glow-1"></div>
+            <div class="acceuil-glow glow-2"></div>
+
+            <div class="container acceuil-container">
+                <div class="acceuil-text-content">
+                    <div class="status-badge">
+                        <span class="status-pulse"></span>
+                        <span>Disponible pour stages & opportunités</span>
+                    </div>
+
+                    <h1 class="acceuil-title">
+                        Bonjour, je suis <br>
+                        <span class="text-gradient">Anjara Handrinasoavina</span>
+                    </h1>
+
+                    <h2 class="acceuil-subtitle">
+                        <span class="typing-text">Développeur Web Junior</span>
+                        <span class="acceuil-location"><i class="fas fa-map-marker-alt"></i> Fianarantsoa, Madagascar</span>
+                    </h2>
+
+                    <p class="acceuil-description">
+                        Étudiant en <strong>DA2I L1</strong> (Développement d'Application Intranet & Internet) à l'<strong>EMIT</strong>.
+                        Je conçois des interfaces web modernes, intuitives et adaptées à tous les écrans avec une soif continue d'apprendre et d'innover.
+                    </p>
+
+                    <div class="acceuil-cta-group">
+                        <a href="#projets" class="btn btn-primary">
+                            <span>Découvrir mes projets</span>
+                            <i class="fas fa-arrow-down"></i>
+                        </a>
+                        <a href="cvanjara.html" class="btn btn-glass">
+                            <i class="fas fa-eye"></i>
+                            <span>Consulter mon CV</span>
+                        </a>
+                    </div>
+
+                    <div class="acceuil-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Projets Conçus</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number">L1</span>
+                            <span class="stat-label">DA2I à l'EMIT</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number">4</span>
+                            <span class="stat-label">Langues Parlées</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Passion & Rigueur</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="acceuil-visual">
+                    <div class="profile-card-wrapper">
+                        <div class="floating-pill pill-html">
+                            <i class="fab fa-html5"></i> <span>HTML5</span>
+                        </div>
+                        <div class="floating-pill pill-css">
+                            <i class="fab fa-css3-alt"></i> <span>CSS3</span>
+                        </div>
+                        <div class="floating-pill pill-js">
+                            <i class="fab fa-js-square"></i> <span>JavaScript</span>
+                        </div>
+                        <div class="floating-pill pill-python">
+                            <i class="fab fa-python"></i> <span>Python</span>
+                        </div>
+
+                        <div class="profile-frame">
+                            <div class="profile-border-glow"></div>
+                            <div class="profile-img-box">
+                                <img src="photo_my.jfif" alt="Anjara Handrinasoavina - Développeur Web Junior" class="profile-img" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'300\' viewBox=\'0 0 100 100\'><circle cx=\'50\' cy=\'50\' r=\'50\' fill=\'%233b82f6\'/><text x=\'50\' y=\'58\' font-size=\'36\' font-family=\'sans-serif\' font-weight=\'bold\' fill=\'%23ffffff\' text-anchor=\'middle\'>AH</text></svg>';">
+                            </div>
+                        </div>
+
+                        <div class="floating-status-card">
+                            <div class="status-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <div>
+                                <div class="status-title">EMIT Fianarantsoa</div>
+                                <div class="status-sub">Parcours DA2I • Groupe B</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="philosophy-section">
+            <div class="container">
+                <div class="philosophy-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <blockquote class="quote-text">
+                        "La réussite est la somme de petits efforts répétés jour après jour."
+                    </blockquote>
+                    <div class="quote-author">— Devise & Philosophie de Travail</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="competences" class="section bg-surface">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-pill">Boîte à outils</span>
+                    <h2 class="section-title">Compétences Techniques</h2>
+                    <p class="section-subtitle">Un aperçu des technologies, outils et compétences que je perfectionne au quotidien.</p>
+                </div>
+
+                <div class="skills-categories-grid">
+                    <div class="glass-card skill-box">
+                        <div class="skill-box-header">
+                            <div class="skill-cat-icon"><i class="fas fa-layer-group"></i></div>
+                            <div>
+                                <h3>Développement Frontend</h3>
+                                <p class="cat-desc">Conception d'interfaces web réactives et ergonomiques</p>
+                            </div>
+                        </div>
+
+                        <div class="skill-items-list">
+                            <div class="skill-detail-item">
+                                <div class="skill-info">
+                                    <div class="skill-brand">
+                                        <i class="fab fa-html5 brand-icon html-color"></i>
+                                        <span class="skill-name">HTML5 Sémantique</span>
+                                    </div>
+                                    <span class="skill-level-text">Avancé</span>
+                                </div>
+                                <div class="skill-progress-bar">
+                                    <div class="skill-fill" style="width: 90%;"></div>
+                                </div>
+                                <p class="skill-note">Structure W3C, balises sémantiques, accessibilité (a11y), SEO on-page et multimédia.</p>
+                            </div>
+
+                            <div class="skill-detail-item">
+                                <div class="skill-info">
+                                    <div class="skill-brand">
+                                        <i class="fab fa-css3-alt brand-icon css-color"></i>
+                                        <span class="skill-name">CSS3 & Modern Styling</span>
+                                    </div>
+                                    <span class="skill-level-text">Solide</span>
+                                </div>
+                                <div class="skill-progress-bar">
+                                    <div class="skill-fill" style="width: 85%;"></div>
+                                </div>
+                                <p class="skill-note">Flexbox, CSS Grid, Responsive Design (Mobile First), variables CSS, animations fluides.</p>
+                            </div>
+
+                            <div class="skill-detail-item">
+                                <div class="skill-info">
+                                    <div class="skill-brand">
+                                        <i class="fab fa-js brand-icon js-color"></i>
+                                        <span class="skill-name">JavaScript (ES6+)</span>
+                                    </div>
+                                    <span class="skill-level-text">Intermédiaire</span>
+                                </div>
+                                <div class="skill-progress-bar">
+                                    <div class="skill-fill" style="width: 75%;"></div>
+                                </div>
+                                <p class="skill-note">Manipulation du DOM, événements, Fetch / requêtes asynchrones, structures de données.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card skill-box">
+                        <div class="skill-box-header">
+                            <div class="skill-cat-icon"><i class="fas fa-terminal"></i></div>
+                            <div>
+                                <h3>Programmation & Logique</h3>
+                                <p class="cat-desc">Résolution algorithmique et programmation structurée</p>
+                            </div>
+                        </div>
+
+                        <div class="skill-items-list">
+                            <div class="skill-detail-item">
+                                <div class="skill-info">
+                                    <div class="skill-brand">
+                                        <i class="fab fa-python brand-icon python-color"></i>
+                                        <span class="skill-name">Python & Algorithmique</span>
+                                    </div>
+                                    <span class="skill-level-text">Intermédiaire</span>
+                                </div>
+                                <div class="skill-progress-bar">
+                                    <div class="skill-fill" style="width: 70%;"></div>
+                                </div>
+                                <p class="skill-note">Syntaxe fondamentale, structures de contrôle, POO de base, initiation aux concepts d'IA.</p>
+                            </div>
+
+                            <div class="skill-detail-item">
+                                <div class="skill-info">
+                                    <div class="skill-brand">
+                                        <i class="fas fa-database brand-icon db-color"></i>
+                                        <span class="skill-name">Bases de Données & Systèmes</span>
+                                    </div>
+                                    <span class="skill-level-text">En apprentissage</span>
+                                </div>
+                                <div class="skill-progress-bar">
+                                    <div class="skill-fill" style="width: 60%;"></div>
+                                </div>
+                                <p class="skill-note">Notions SQL, modélisation relationnelle et architecture intranet/internet (Programme EMIT).</p>
+                            </div>
+
+                            <div class="skill-detail-item">
+                                <div class="skill-info">
+                                    <div class="skill-brand">
+                                        <i class="fab fa-git-alt brand-icon git-color"></i>
+                                        <span class="skill-name">Git, GitHub & Outils Dev</span>
+                                    </div>
+                                    <span class="skill-level-text">Régulier</span>
+                                </div>
+                                <div class="skill-progress-bar">
+                                    <div class="skill-fill" style="width: 75%;"></div>
+                                </div>
+                                <p class="skill-note">Versionnement de code, branches, travail collaboratif, VS Code, DevTools navigateurs.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="languages-block">
+                    <h3 class="languages-title"><i class="fas fa-globe-africa"></i> Compétences Linguistiques</h3>
+                    
+                    <div class="languages-cards-grid">
+                        <div class="glass-card lang-card">
+                            <div class="lang-flag-indicator">🇲🇬</div>
+                            <div class="lang-content">
+                                <div class="lang-header">
+                                    <span class="lang-title">Malagasy</span>
+                                    <span class="lang-badge-native">Maternelle</span>
+                                </div>
+                                <div class="lang-bar"><span class="lang-level-fill" style="width: 100%;"></span></div>
+                                <span class="lang-desc">Langue maternelle (Bilingue parfait)</span>
+                            </div>
+                        </div>
+
+                        <div class="glass-card lang-card">
+                            <div class="lang-flag-indicator">🇫🇷</div>
+                            <div class="lang-content">
+                                <div class="lang-header">
+                                    <span class="lang-title">Français</span>
+                                    <span class="lang-badge-level">C1 • Avancé</span>
+                                </div>
+                                <div class="lang-bar"><span class="lang-level-fill" style="width: 90%;"></span></div>
+                                <span class="lang-desc">Courant professionnel et académique</span>
+                            </div>
+                        </div>
+
+                        <div class="glass-card lang-card">
+                            <div class="lang-flag-indicator">🇬🇧</div>
+                            <div class="lang-content">
+                                <div class="lang-header">
+                                    <span class="lang-title">Anglais</span>
+                                    <span class="lang-badge-level">B1 • Technique</span>
+                                </div>
+                                <div class="lang-bar"><span class="lang-level-fill" style="width: 65%;"></span></div>
+                                <span class="lang-desc">Documentation technique & échanges professionnels</span>
+                            </div>
+                        </div>
+
+                        <div class="glass-card lang-card">
+                            <div class="lang-flag-indicator">🇪🇸</div>
+                            <div class="lang-content">
+                                <div class="lang-header">
+                                    <span class="lang-title">Espagnol</span>
+                                    <span class="lang-badge-level">B1 • Intermédiaire</span>
+                                </div>
+                                <div class="lang-bar"><span class="lang-level-fill" style="width: 55%;"></span></div>
+                                <span class="lang-desc">Compréhension et expression de base</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projets" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-pill">Réalisations</span>
+                    <h2 class="section-title">Mes Projets Récents</h2>
+                    <p class="section-subtitle">Découvrez une sélection de projets concrets alliant travail d'équipe, innovation et rigueur technique.</p>
+                </div>
+
+                <div class="projects-filter">
+                    <button class="filter-btn active" data-filter="all">Tous les projets</button>
+                    <button class="filter-btn" data-filter="web">Applications Web</button>
+                    <button class="filter-btn" data-filter="team">Collaboratif</button>
+                    <button class="filter-btn" data-filter="personal">Personnel</button>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="glass-card project-card" data-category="web team">
+                        <div class="project-banner">
+                            <div class="project-preview-mockup mockup-lordbless">
+                                <div class="mockup-header">
+                                    <span class="dot red"></span>
+                                    <span class="dot yellow"></span>
+                                    <span class="dot green"></span>
+                                    <span class="mockup-url">lordbless.web</span>
+                                </div>
+                                <div class="mockup-body">
+                                    <i class="fas fa-church mockup-icon"></i>
+                                    <div class="mockup-label">LordBless Web Platform</div>
+                                </div>
+                            </div>
+                            <span class="project-category-badge"><i class="fas fa-users"></i> Projet d'équipe</span>
+                        </div>
+
+                        <div class="project-details">
+                            <h3 class="project-name">Site Web "LordBless"</h3>
+                            <p class="project-description">
+                                Plateforme web collaborative conçue et développée en équipe. Mise en application des fondamentaux du développement web moderne avec un accent mis sur la structure HTML5, l'organisation CSS et les interactions JavaScript.
+                            </p>
+
+                            <div class="project-tech-tags">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Git / GitHub</span>
+                                <span class="tech-tag">Travail d'équipe</span>
+                            </div>
+
+                            <div class="project-actions">
+                                <a href="https://laatr34.github.io/LordBless/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                                    <i class="fas fa-external-link-alt"></i> Démo en direct
+                                </a>
+                                <a href="https://github.com/AnjaraHandrinasoavina" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" title="Consulter le profil GitHub">
+                                    <i class="fab fa-github"></i> Code Source
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="glass-card project-card" data-category="web personal">
+                        <div class="project-banner">
+                            <div class="project-preview-mockup mockup-technova">
+                                <div class="mockup-header">
+                                    <span class="dot red"></span>
+                                    <span class="dot yellow"></span>
+                                    <span class="dot green"></span>
+                                    <span class="mockup-url">technova-mada.mg</span>
+                                </div>
+                                <div class="mockup-body">
+                                    <i class="fas fa-microchip mockup-icon"></i>
+                                    <div class="mockup-label">TechNova • Futur Numérique</div>
+                                </div>
+                            </div>
+                            <span class="project-category-badge badge-tech"><i class="fas fa-rocket"></i> Projet Tech Web</span>
+                        </div>
+
+                        <div class="project-details">
+                            <h3 class="project-name">Plateforme "TechNova"</h3>
+                            <p class="project-description">
+                                Projet individuel dédié à l'innovation technologique et au futur numérique malgache. Conception d'une interface dynamique, responsive et accessible mettant en avant les actualités et perspectives du secteur digital à Madagascar.
+                            </p>
+
+                            <div class="project-tech-tags">
+                                <span class="tech-tag">HTML5 Sémantique</span>
+                                <span class="tech-tag">CSS3 Grid / Flexbox</span>
+                                <span class="tech-tag">JavaScript ES6</span>
+                                <span class="tech-tag">Responsive Design</span>
+                            </div>
+
+                            <div class="project-actions">
+                                <a href="https://anjarahandrinasoavina.github.io/TechNova/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                                    <i class="fas fa-external-link-alt"></i> Démo en direct
+                                </a>
+                                <a href="https://github.com/AnjaraHandrinasoavina/TechNova" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" title="Dépôt GitHub du projet">
+                                    <i class="fab fa-github"></i> Code Source
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="glass-card project-card" data-category="web personal">
+                        <div class="project-banner">
+                            <div class="project-preview-mockup mockup-portfolio">
+                                <div class="mockup-header">
+                                    <span class="dot red"></span>
+                                    <span class="dot yellow"></span>
+                                    <span class="dot green"></span>
+                                    <span class="mockup-url">anjara-portfolio.dev</span>
+                                </div>
+                                <div class="mockup-body">
+                                    <i class="fas fa-id-card-alt mockup-icon"></i>
+                                    <div class="mockup-label">Portfolio & CV Interactif</div>
+                                </div>
+                            </div>
+                            <span class="project-category-badge badge-personal"><i class="fas fa-user-check"></i> Projet Personnel</span>
+                        </div>
+
+                        <div class="project-details">
+                            <h3 class="project-name">Portfolio & CV Interactif</h3>
+                            <p class="project-description">
+                                Conception et développement complet d'une vitrine professionnelle en ligne. Intégration d'un sélecteur de thème sombre/clair, d'animations au défilement et d'une présentation claire de mon parcours.
+                            </p>
+
+                            <div class="project-tech-tags">
+                                <span class="tech-tag">Architecture CSS Moderne</span>
+                                <span class="tech-tag">Dark / Light Mode</span>
+                                <span class="tech-tag">Vanilla JS</span>
+                                <span class="tech-tag">UX / UI</span>
+                            </div>
+
+                            <div class="project-actions">
+                                <a href="cvanjara.html" class="btn btn-primary btn-sm">
+                                    <i class="fas fa-eye"></i> Voir le CV
+                                </a>
+                                <a href="#accueil" class="btn btn-secondary btn-sm">
+                                    <i class="fas fa-arrow-up"></i> Haut de page
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#accueil" class="brand-logo">
+                        <span class="logo-bracket">&lt;</span><span class="logo-name">My</span><span class="logo-dot">portfolio</span><span class="logo-bracket"> /&gt;</span>
+                    </a>
+                    <p class="footer-desc">
+                        Développeur Web Junior & Étudiant en DA2I à l'EMIT Fianarantsoa. Passionné par l'informatique et la création d'expériences numériques de qualité.
+                    </p>
+                </div>
+
+                <div class="footer-nav">
+                    <h4 class="footer-heading">Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="#accueil"><i class="fas fa-chevron-right"></i> Accueil</a></li>
+                        <li><a href="#competences"><i class="fas fa-chevron-right"></i> Compétences</a></li>
+                        <li><a href="#projets"><i class="fas fa-chevron-right"></i> Projets</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4 class="footer-heading">Contact Rapide</h4>
+                    <p><a href="mailto:nasouav@gmail.com"><i class="fas fa-envelope"></i> nasouav@gmail.com</a></p>
+                    <p><a href="tel:+261378627360"><i class="fas fa-phone"></i> +261 37 86 273 60</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> Fianarantsoa, Madagascar</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Retour en haut de page" title="Retour en haut">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="anjara.js"></script>
+</body>
+</html>
+
+
+
+
+
+
