@@ -46,6 +46,8 @@
 
     --mockup-bg: #090e1a;
     --mockup-bar: #141c2e;
+    --bg-contact-icon: #9294F6;
+    --bg-contact: #000000;
 }
 
 [data-theme="light"] {
@@ -69,6 +71,9 @@
 
     --mockup-bg: #f1f5f9;
     --mockup-bar: #e2e8f0;
+
+    --bg-contact-icon: #2E31EA;
+    --bg-contact: #f8fafc;
 }
 
 *, *::before, *::after {
@@ -1281,6 +1286,24 @@ button, input, textarea {
     font-size: 0.9rem;
 }
 
+.footer-socials {
+  display: flex;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.footer-socials a {
+  color: var(--bg-contact-icon);
+  background:var(--bg-contact);
+;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
 .back-to-top {
     position: fixed;
     bottom: 30px;
